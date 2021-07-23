@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeTantra - Tech & Learn Anywhere</title>
+    <link rel="stylesheet" href="codetatra.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> 
+</head>
+<body>
+    <div class="arrow">
+        <i class="fas fa-sort-down"></i>
+    </div>
+    <div class="avtar">
+        <div id="menubtn"><i class="fal fa-user" id="menu"></i>
+        <i class="fal fa-chevron-right" style="font-size: 10px;"></i></div>
+    </div>
+    <div id="sidenav1">
+        <img src="logo.png" height="35px">
+        <hr>
+        <h6>MESSAGES</h6>
+        <button id="menubtn1" onclick="openNav()"><i class="far fa-comments" id="menu" style="color: #6c757d;"></i><h5>Public Chat</h5></button>
+        <h4>USERS(11)</h4>
+        <div style="overflow-y: scroll; height:480px;" >
+        <div class="users">
+            <div class="u1"><h1>12</h1><p>12006405-SW...(YOU)<br><i class="fal fa-lock" style="font-size: 10px;color: #6c757d;"></i><span style="font-size: 12px;margin-left: 1px;color: #6c757d;">Locked</span></p></div>
+        </div>
+        <div class="users">
+            <div class="u1"><h1 style="border-radius: 5px;">Dr</h1><p style="margin-top:15px">Dr. Goutam Majumder</p></div>
+        </div>
+        <div class="users">
+            <div class="u1"><h1 style="background-color: rgb(39, 10, 143);">12</h1><p>12008810-Vikas Kumar<br><i class="fal fa-lock" style="font-size: 10px;color: #6c757d;"></i><span style="font-size: 12px;margin-left: 1px;color: #6c757d;">Locked</span></p></div>
+        </div>
+        <div class="users">
+            <div class="u1"><h1 style="background-color: rgb(71, 55, 160);">12</h1><p>12012501-PIYUSH<br><i class="fal fa-lock" style="font-size: 10px;color: #6c757d;"></i><span style="font-size: 12px;margin-left: 1px;color: #6c757d;">Locked</span></p></div>
+        </div>
+        <div class="users">
+            <div class="u1"><h1 sty>12</h1><p>12006245-Muskan Th...<br><i class="fal fa-lock" style="font-size: 10px;color: #6c757d;"></i><span style="font-size: 12px;margin-left: 1px;color: #6c757d;">Locked</span></p></div>
+        </div>
+        <div class="users">
+            <div class="u1"><h1 style="background-color: rgb(39, 10, 143);">12</h1><p>12009221-Dushyant S...<br><i class="fal fa-lock" style="font-size: 10px;color: #6c757d;"></i><span style="font-size: 12px;margin-left: 1px;color: #6c757d;">Locked</span></p></div>
+        </div>
+        <div class="users">
+            <div class="u1"><h1 style="background-color: rgb(71, 55, 160);">12</h1><p>12012169-Dipti Sarkar <br><i class="fal fa-lock" style="font-size: 10px;color: #6c757d;"></i><span style="font-size: 12px;margin-left: 1px;color: #6c757d;">Locked</span></p></div>
+        </div>
+        <div class="users">
+            <div class="u1"><h1>12</h1><p>12013959-Yash Kumar<br><i class="fal fa-lock" style="font-size: 10px;color: #6c757d;"></i><span style="font-size: 12px;margin-left: 1px;color: #6c757d;">Locked</span></p></div>
+        </div>
+        <div class="users">
+            <div class="u1"><h1 style="background-color: rgb(39, 10, 143);">12</h1><p>12006405-KHUSHI<br><i class="fal fa-lock" style="font-size: 10px;color: #6c757d;"></i><span style="font-size: 12px;margin-left: 1px;color: #6c757d;">Locked</span></p></div>
+        </div>
+        <div class="users">
+            <div class="u1"><h1 style="background-color: rgb(71, 55, 160);">12</h1><p>12006405-Adarsh<br><i class="fal fa-lock" style="font-size: 10px;color: #6c757d;"></i><span style="font-size: 12px;margin-left: 1px;color: #6c757d;">Locked</span></p></div>
+        </div>
+        <div class="users">
+            <div class="u1"><h1>12</h1><p>12006405-Eeshan Ag...<br><i class="fal fa-lock" style="font-size: 10px;color: #6c757d;"></i><span style="font-size: 12px;margin-left: 1px;color: #6c757d;">Locked</span></p></div>
+        </div>
+        <div class="users">
+            <div class="u1"><h1>12</h1><p>12006405-Abhishek<br><i class="fal fa-lock" style="font-size: 10px;color: #6c757d;"></i><span style="font-size: 12px;margin-left: 1px;color: #6c757d;">Locked</span></p></div>
+        </div>
+    </div>
+    </div>
+    <div id="myNav" class="overlay">
+        
+        <div class="overlay-content">
+           <div class="header">
+            <i class="fal fa-chevron-left" style="font-size: 12px;"><span style="font-size: 15px;margin-left: 20px;">Public Chat</span></i>
+            <i class="far fa-ellipsis-v"></i>
+            
+            
+           </div>
+           <div style="overflow-y: scroll; height:550px;" >
+                
+           </div>
+           <div class="footer">
+               <div class="box">
+                   <p>Welcome to CSE202!<br><br>For help, contact support@codetantra.com</p>
+               </div>
+               <input type="text" placeholder="Send message to Public Chat">
+               <svg xmlns="http://www.w3.org/2000/svg"width="16" height="16" fill="white" class="bi bi-cursor" viewBox="0 0 16 16">
+                <path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103zM2.25 8.184l3.897 1.67a.5.5 0 0 1 .262.263l1.67 3.897L12.743 3.52 2.25 8.184z"/>
+              </svg>
+           </div>
+        </div>
+      </div>
+      <a href="" class="closebtn" onclick="closeNav() " id="cl"><i class="fal fa-chevron-left" style="margin-bottom: 5px;font-size: 12px;margin-right: 2px;"></i><i class="fal fa-user"></i></a>
+
+
+
+      <div class="main" id="main">
+         <p id="text">CSE326 &nbsp;|</p><i  class="fas fa-circle" id="text1"></i><p style="padding-left: 85px;" id="text2">14:29</p>
+
+          <iframe src="file:///C:/Users/Dell/Downloads/Self%20Refrential%20Class.pdf" id="if"></iframe>
+          <i class="far fa-hand-paper" id="hand"></i>
+          <div >
+            <i class="far fa-headphones"></i>
+          <i class="far fa-video"></i></div>
+          
+      </div>
+
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var sidenav = document.getElementById("sidenav1")
+        var menu = document.getElementById("menu")
+
+        sidenav.style.left = "-205px";
+
+        menubtn.onclick = function() {
+            if (sidenav.style.left == "-205px") {
+                sidenav.style.left = "0";
+                menu.src = "close.png";
+                
+            } else {
+                sidenav.style.left = "-205px";
+                menu.src = "menu.png";
+                document.getElementById("hand").style.left="500px";
+                
+            }
+        }
+
+        function openNav() {
+           document.getElementById("myNav").style.width = "40%";
+           document.getElementById("cl").style.color="white";
+           document.getElementById("menubtn1").style.border="2px solid rgb(106, 189, 238)";
+           document.getElementById("menubtn1").style.background="rgb(220, 225, 228)";
+           document.getElementById("main").style.marginLeft="550px";
+           document.getElementById("if").style.width="650px";
+           document.getElementById("hand").style.left="550px";
+           document.getElementById("text").style.left="870px";
+           document.getElementById("text1").style.left="940px";
+           document.getElementById("text2").style.left="872px";
+        }
+
+        function closeNav() {
+           document.getElementById("myNav").style.width = "0%";
+           document.getElementById("cl").style.color="#06172a";
+        }
+    
+    </script>
+</body> 
+</html>
